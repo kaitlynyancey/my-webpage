@@ -1,0 +1,101 @@
+/*tyle for body background color*/
+body{
+  background: #A69CAC
+}
+
+/*style for header background color*/
+header{
+  background: #161B33;
+  padding: 1px;
+}
+
+/*common styling for header fonts, color, and alignment*/
+h1,h2{
+  font-family: Perpetua, 'Times New Roman', serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+/*h1 size styling*/
+h1{
+  font-size: 78px;
+  height: 50px;
+}
+
+/*h2 size styling*/
+h2{
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+/*h3 font, color, and styling*/
+h3{
+  text-align:center;
+  font-family: verdana, arial, sans-serif;
+  color: aliceblue;
+  font-style: italic;
+}
+
+/*paragraph styling for font style, color, and page positioning*/
+p{
+  width: 500px;
+  margin: auto;
+  font-family: verdana, arial, sans-serif;
+  color: #0D0C1D;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*style class used for the second div in the header*/ 
+div.style{
+  background: #474973;
+  padding: 1px;
+}
+ 
+/*center class used to position images in center of page*/
+img.center{
+  display: block;
+  margin: 0 auto;
+}
+
+/*common styling for the ordered and unordered lists*/
+ol, ul{
+  list-style-position: inside;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+/*styling for list elements*/
+li{
+  color: #0D0C1D;
+  font-family: verdana, arial, sans-serif;
+}
+
+/*styling for the horizontal rulers*/
+hr{
+  border: 0px;
+  height: 1px;
+  width: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+
+}
+
+/*wrapper class used for longer h3 headings in order to align the text more evenly*/
+.wrapper-heading{
+  width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*link styling*/ 
+a:link {color: aliceblue}
+a:visited {color: #474973}
+a:hover{color: #ca58c5}
+a:active{color: rgb(95, 14, 88)}
+
+/*styling to remove bullets from the contact info list*/
+footer ul{
+  list-style-type: none;
+}
