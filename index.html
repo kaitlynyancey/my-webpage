@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Kaitlyn Yancey Webpage</title>
-    
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
-</html>
 
 <body>
 
@@ -21,46 +16,59 @@
     <h1>Kaitlyn Yancey</h1>
     <h2>Software Developer</h2>
   </div>
-  <div class="style">
-    <h3>Welcome to my page!</h3>
-  </div>
+ 
 </header>
 
-<img class="center" src="photos/laptop.jpg" width="500" alt="laptop with small coffee cup on keyboard"/>
+<!--This will eventually become the navigation bar once I've expanded my webpage
+<nav>
+</nav>
+-->
 
 <!--The main section of the webpage will include a brief introduction of myself along with an "about me" section. This section will also inclue a picture of myself. -->
 
 <main>
   <!-- intro -->
-  <div>
+  <section>
+    <h3 class="style">Welcome to my page!</h3>
     <p>Hey there, I'm Kaitlyn, an aspiring software developer. I live in Columbus, Indiana, a small town with big personality.</p>
-  
-  </div>
+    <img class="center" src="photos/laptop.jpg" width="500" alt="laptop with small coffee cup on keyboard"/>
+  </section>
 
   <!-- about me -->
-  <div>
+  <section>
     <h3>About Me</h3>
-    <p>I started off my professional life as a mechanical engineer and then felt the pull to take my career in another direction. Ultimately, I found myself drawn to software engineering and am excited to begin this new journey. </p>
+    <p>I started off my professional life as a mechanical engineer and then felt the pull to take my career in another direction. Ultimately, I found myself drawn to software engineering and am excited to begin this new journey. I'm passionate about working on projects that will improve others' lives, and I believe as a developer, I can make that happen. I've had prior experience learning to code during my undergraduate classes and really enjoyed the process of writing code, testing code, and debugging. I'm a very detail oriented person and extremely self-motivated, which aligns well with the work of software engineer. </p>
     
     <!--Insert a profile picture here-->
     <img class="center" src="photos/me.jpg" width="500" alt="picture of website owner"/>
-    
-    <h3 class="wrapper-heading">Reasons why I'm passionate about becoming a developer:</h3>
+  </section>
+  <section>
+    <h3 class="wrapper-heading">More reasons why I'm passionate about becoming a developer:</h3>
     <ul>
       <li>I've always had an unsatiable appetite to learn new things</li>
       <li>I'm a logical thinker and love solving puzzles</li>
       <li>I enjoy creating and building things from scratch</li>
-      <li>I'm a team player, who enjoys collaborating with others</li> 
     </ul>
+  </section>
     <hr>
-    
+    <!--expand more on willingness to work with others here-->
+  <section>
+    <h3>Team Player</h3>
+    <p>
+      I've always been the person on a team project who acts as the "glue" to keep everyone on track and motivated. I get value from helping and training others, which makes working with a team very rewarding to me. My current job has taught me the importance of working with a diverse, cross-functional team in order to deliver the best product. As an introvert, I can be independent at times, but will always step up and do my part when I'm working with a group.  
+    </p>
+  </section>
     <!--Section about hobbies outside of development-->
+  <section>
+    <h3>More About Me</h3>
+    <p>Those who know me, would describe me as a crazy, dog mom. I'm a huge animal and nature lover, and enjoy spending most of my time outdoors. I love a good cup of coffee and catching up with friends. I'm also a big fan of live music and summer concerts!</p> 
     <h3>Outside of work you can find me...</h3>
     <ol>
       <li>Hiking with my dog</li>
       <li>Learning how to dance</li>
       <li>Starting on my next craft project</li>
-  </div>
+    </ol>
+  </section>
 </main>
 
 <hr>
@@ -78,4 +86,6 @@
 
 </footer>
 
-</body>
+<script src="script.js"></script>
+  </body>
+</html>

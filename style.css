@@ -1,12 +1,14 @@
-/*tyle for body background color*/
+/*Style for body background color and to remove margins*/
 body{
-  background: #A69CAC
+  background-color: #A69CAC;
+  margin: 0;
 }
 
 /*style for header background color*/
 header{
-  background: #161B33;
-  padding: 1px;
+  /*background: #161B33;*/
+  background:#161B33;
+  margin:0;
 }
 
 /*common styling for header fonts, color, and alignment*/
@@ -14,18 +16,19 @@ h1,h2{
   font-family: Perpetua, 'Times New Roman', serif;
   color: aliceblue;
   text-align: center;
+  margin:0;
 }
 
 /*h1 size styling*/
 h1{
   font-size: 78px;
-  height: 50px;
+  padding: 20px 0;
 }
 
 /*h2 size styling*/
 h2{
   font-size: 24px;
-  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 /*h3 font, color, and styling*/
@@ -44,18 +47,22 @@ p{
   color: #0D0C1D;
   margin-bottom: 30px;
   margin-top: 30px;
+  line-height: 22px;
 }
 
-/*style class used for the second div in the header*/ 
-div.style{
-  background: #474973;
-  padding: 1px;
+/*style class to add a banner to headings*/
+.style{
+  background:#474973;
+  margin:0;
+  padding: 15px 0;
 }
  
-/*center class used to position images in center of page*/
+
+/*center class used to position image in center of page and also adds a border radius to picture*/
 img.center{
   display: block;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 /*common styling for the ordered and unordered lists*/
@@ -99,3 +106,5 @@ a:active{color: rgb(95, 14, 88)}
 footer ul{
   list-style-type: none;
 }
+
+
