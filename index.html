@@ -16,7 +16,6 @@
     <h1>Kaitlyn Yancey</h1>
     <h2>Software Developer</h2>
   </div>
- 
 </header>
 
 <!--This will eventually become the navigation bar once I've expanded my webpage
@@ -26,56 +25,104 @@
 
 <!--The main section of the webpage will include a brief introduction of myself along with an "about me" section. This section will also inclue a picture of myself. -->
 
-<main>
+<main class="wrapper">
   <!-- intro -->
-  <section>
-    <h3 class="style">Welcome to my page!</h3>
-    <p>Hey there, I'm Kaitlyn, an aspiring software developer. I live in Columbus, Indiana, a small town with big personality.</p>
-    <img class="center" src="photos/laptop.jpg" width="500" alt="laptop with small coffee cup on keyboard"/>
+  <section class="group">
+        <!--Insert a profile picture here-->
+    <div class="item item-double">
+      <img src="photos/me.jpg" alt="picture of website owner"/>
+    </div>
+    <div class="item">
+      <h3>Welcome to my page!</h3>
+      <p>Hey there, I'm Kaitlyn, an aspiring software developer. I live in Columbus, Indiana with my dog / motivational coach, Dodge. If you can't find Columbus on a map don't worry! It's a small town about an hour south of Indianapolis and is known for it's architecture. Scroll down to learn more about me! 
+    </div>
   </section>
-
-  <!-- about me -->
-  <section>
-    <h3>About Me</h3>
-    <p>I started off my professional life as a mechanical engineer and then felt the pull to take my career in another direction. Ultimately, I found myself drawn to software engineering and am excited to begin this new journey. I'm passionate about working on projects that will improve others' lives, and I believe as a developer, I can make that happen. I've had prior experience learning to code during my undergraduate classes and really enjoyed the process of writing code, testing code, and debugging. I'm a very detail oriented person and extremely self-motivated, which aligns well with the work of software engineer. </p>
-    
-    <!--Insert a profile picture here-->
-    <img class="center" src="photos/me.jpg" width="500" alt="picture of website owner"/>
-  </section>
-  <section>
-    <h3 class="wrapper-heading">More reasons why I'm passionate about becoming a developer:</h3>
-    <ul>
-      <li>I've always had an unsatiable appetite to learn new things</li>
-      <li>I'm a logical thinker and love solving puzzles</li>
-      <li>I enjoy creating and building things from scratch</li>
-    </ul>
-  </section>
-    <hr>
-    <!--expand more on willingness to work with others here-->
-  <section>
-    <h3>Team Player</h3>
-    <p>
-      I'm the person on a team project who acts as the "glue" to keep everyone on track and stay motivated. I get value from helping and training others, which makes working with a team very rewarding to me. My current job has taught me the importance of working with a diverse, cross-functional team in order to deliver the best product. As an introvert, I can be independent at times, but will always step up and do my part when I'm working with a group.  
-    </p>
-  </section>
-    <!--Section about hobbies outside of development-->
-  <section>
-    <h3>More About Me</h3>
-    <p>Those who know me would describe me as a crazy dog mom. I'm a huge animal and nature lover, and enjoy spending most of my time outdoors. I love a good cup of coffee and catching up with friends. I'm also a big fan of live music and summer concerts!</p> 
-    <h3>Outside of work you can find me...</h3>
-    <ol>
-      <li>Hiking with my dog</li>
-      <li>Learning how to dance</li>
-      <li>Starting on my next craft project</li>
-    </ol>
-  </section>
-</main>
 
 <hr>
 
+  <!-- about me -->
+  <section>
+    <div>
+      <h3>About Me</h3>
+      <p>Currently, I'm working at an engine manufacturing company as an electronics hardware integration engineer. I started off my professional life as a mechanical engineer and then felt the pull to take my career in another direction. Ultimately, I found myself drawn to software engineering and am excited to begin this new journey. I'm passionate about working on projects that will improve others' lives, and I believe as a developer, I can make that happen. I've had prior experience learning to code during my undergraduate classes and really enjoyed the process of writing code, testing code, and debugging. I'm a very detail oriented person and extremely self-motivated, which aligns well with the work of software engineer. </p>
+      <p>I'm passionate about becoming a developer because I've always had an unsatiable appetite to learn new things, I'm a logical thinker and love solving puzzles, and I enjoy creating and building things from scratch.</p>
+    </div>
+  </section>
+
+    <!-- Section about skills / services I have to offer -->
+  <section class="group">
+    <div class="item">
+      <h3>Skills & Services</h3>
+      <ol>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>More coming soon...</li>
+      </ol>
+    </div>
+    <div class="item">
+       <img src="photos/laptop.jpg" alt="laptop with small coffee cup on keyboard"/>
+    </div>
+   
+  </section>
+
+  <!--Section about hobbies outside of development-->
+  <section>
+    <div>
+      <h3>Fun Facts</h3>
+      <p>Those who know me, would describe me as a crazy, dog mom. I'm a huge animal and nature lover, and enjoy spending most of my time outdoors. I love a good cup of coffee and catching up with friends. I'm also a big fan of live music and summer concerts. Outside of work you can find me hiking with my dog, learning how to dance at my local studio, or starting on my next craft project!</p>
+    </div>
+    <div>
+      <img src="photos/hiking.jpg" alt="hiking boots and backpack">
+    </div>
+  </section>
+
+  
+    <!--expand more on willingness to work with others here-->
+  <section class="group">
+    <div class="item item-double">
+      <h3>Team Player</h3>
+      <p>I've always been the person on a team project who acts as the "glue" to keep everyone on track and motivated. I get value from helping and training others, which makes working with a team very rewarding to me. My current job has taught me the importance of working with a diverse, cross-functional team in order to deliver the best product. As an introvert, I can be independent at times, but will always step up and do my part when I'm working with a group.  
+      </p>
+    </div>
+    <div class="item">
+      <img src="photos/puzzle.jpg" alt="jigsaw puzzle pieces">
+    </div>
+  </section>
+
+    
+<hr>
+<!--This section will cover my portfolio projects. Include description of projects, skills used, snapshot of project, and links to the working apps-->
+<h2>My Project Portfolio</h2>
+  <section class="group">
+    
+    <div class="item">
+      <h3>Project # 1</h3>
+      <p>More details to come! This section will describe the project, the skills used to develop it, and the inspiration behind it.</p>
+      <a href="https://github.com/kaitlynyancey">Project Link Placeholder</a>
+      <img src="photos/placeholder.jpg" alt="Under construction sign on laptop">
+    </div>
+    <div class="item">
+      <h3>Project # 2</h3>
+      <p>More details to come! This section will describe the project, the skills used to develop it, and the inspiration behind it.</p>
+      <a href="https://github.com/kaitlynyancey">Project Link Placeholder</a>
+      <img src="photos/placeholder.jpg" alt="Under construction sign on laptop">
+  </div>
+  <div class="item">
+    <h3>Project # 3</h3>
+    <p>More details to come! This section will describe the project, the skills used to develop it, and the inspiration behind it.</p>
+    <a href="https://github.com/kaitlynyancey">Project Link Placeholder</a>
+    <img src="photos/placeholder.jpg" alt="Under construction sign on laptop">
+  </div>
+  </section>
+  
+<hr>
+</main>
+
+
 <!--The footer will include my contact information so website visitors will know how to reach me. Include links to Github, LinkedIn, and email-->
 
-<footer>
+<footer class="wrapper">
   <h3>Contact Info</h3>
   <p>Feel free to reach out to me:</p>
   <ul>
@@ -87,5 +134,5 @@
 </footer>
 
 <script src="script.js"></script>
-  </body>
+</body>
 </html>
