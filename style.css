@@ -34,9 +34,10 @@ h2{
 /*h3 font, color, and styling*/
 h3{
   text-align:center;
-  font-family: verdana, arial, sans-serif;
+  font-family: 'exo 2', arial, sans-serif;
   color: #0D0C1D;
-  font-style: italic;
+  
+  text-decoration: underline;
 }
 
 /*paragraph styling for font style, color, and page positioning*/
@@ -62,7 +63,7 @@ main h2{
 
 /*center class used to position image in center of page and also adds a border radius to picture*/
 img{
-  width:100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -124,8 +125,13 @@ header nav ul {
 /*link styling*/ 
 footer a:link {color: #161B33}
 footer a:visited {color: #474973}
-footer a:hover{color: #ca58c5}
-footer a:active{color: rgb(95, 14, 88)}
+footer a:hover {color: #ca58c5}
+footer a:active {color: rgb(95, 14, 88)}
+
+main a:link {color: #161B33}
+main a:visited {color: #474973}
+main a:hover {color: #ca58c5}
+main a:active {color: rgb(95, 14, 88)}
 
 
 /*styling to remove bullets from the contact info list*/
@@ -149,36 +155,6 @@ footer ul, header ul{
 
 .border{
   border: 1pt solid black;
-}
-
-
-/*display styling for larger screens*/
-@media all and (min-width: 800px){
-  .group{
-    flex-direction: row;
-  }
-  .item{
-    padding: 0 2%;
-  }
-  section{
-    margin-bottom: 70px;
-  }
-  .wrapper{
-    width: 50%;
-  }
-  p{
-    font-size: 20px;
-  }
-  a, li{
-    font-size: 20px;
-  }
-  header a{
-    margin: 0 60px 0 0;
-  }
-  .trim{
-    height: 100%;
-  }
-
 }
 
 /*Form styling*/
@@ -211,3 +187,41 @@ form{
   padding-right: 10px;
   padding-bottom: 30px;
 }
+
+button:hover{
+  background:rgb(67, 81, 151);
+}
+
+/*display styling for larger screens*/
+@media all and (min-width: 800px){
+  .item{
+    padding: 0 2%;
+  }
+  section{
+    margin-bottom: 70px;
+  }
+  .wrapper{
+    width: 50%;
+  }
+  p, button, a, li, input, form label{
+    font-size: 20px;
+  }
+  header a{
+    margin: 0 60px 0 0;
+  }
+  .trim{
+    height: 100%;
+  }
+  .wrapper-img{
+    margin: auto;
+    width: 60%;
+  }
+  h2{
+    font-size: 34px;
+  }
+  h3{
+    font-size: 24px;
+  }
+}
+
+
